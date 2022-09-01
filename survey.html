@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+        <title>
+            Follow Up Survey
+        </title>
+        <link rel="stylesheet" href="survey.css" />
+    </head>
+    <body>
+        <div class="survey">
+            <header class="centered">
+                <h1>Follow Up Survey</h1>
+            </header>
+            <form>
+                <div class="form-container">
+                    <div class="flex">
+                        <div class="item">
+                            <p>When did you use our service?</p>
+                            <input type="date" class="input" name="DateOfUse">
+                            <br>
+                            <sub>Date</sub>
+                        </div>
+                        <div class="item">
+                            <p>Name of product or service</p>
+                            <input type="text" class="input" name="ProductName" />
+                        </div>                
+                    </div>
+                    
+                </div>
+                <div class="form-container">
+                    <p>Overall, how satisfied are you with the product or service?</p>
+                    <div class="flex">
+                        <span class="item">
+                            <input type="radio" name="ProductSatisfaction" value="vs" id="vs">
+                            <label for="vs">Very satisfied</label>
+                        </span>
+                        <span class="itemt">
+                            <input type="radio" name="ProductSatisfaction" value="s" id="s">
+                            <label for="s">Satisfied</label>
+                        </span>
+                        </br>
+                        <span class="item">
+                            <input type="radio" name="ProductSatisfaction" value="n" id="n">
+                            <label for="n">Neutral</label>
+                        </span>
+                        <span class="item">
+                            <input type="radio" name="ProductSatisfaction" value="us" id="us">
+                            <label for="us">Unsatsified</label>
+                        </span>
+                        </br>
+                        <span class="item">
+                            <input type="radio" name="ProductSatisfaction" value="vu" id="vu">
+                            <label for="vu">Very unsatsified</label>
+                        </span>
+                        <span class="item">
+                            <input type="radio" name="ProductSatisfaction" value="na" id="na">
+                            <label for="na">N/A</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <p>Did our product or service meet your expectations?</p>
+                    <div class="flex">
+                        <span class="item">
+                            <input type="radio" name="ProductExpectaion" value="y" id="PEy">
+                            <label for="PEy">Yes</label>
+                        </span>
+                        <span class="item">
+                            <input type="radio" name="ProductExpectaion" value="n" id="PEn">
+                            <label for="PEn">No</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <p>Would you recommend this product or service to a friend?</p>
+                    <div class="flex">
+                        <span class="item">
+                            <input type="radio" name="ProductRecommendation" value="y" id="PRy">
+                            <label for="PRy">Yes</label>
+                        </span>
+                        <span class="item">
+                            <input type="radio" name="ProductRecommendation" value="n" id="PRn">
+                            <label for="PRn">No</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <p>What aspect of the product or service were you most satisfied by?</p>
+                    <div class="flex">
+                        <span class="item">
+                            <input type="radio" name="BestAspect" value="q" id="BAq">
+                            <label for="BAq">Quality</label>
+                        </span>
+                        <span class="item">
+                            <input type="radio" name="BestAspect" value="p" id="BAp">
+                            <label for="BAp">Price</label>
+                        </span>
+                        <br>
+                        <span class="item">
+                            <input type="radio" name="BestAspect" value="cs" id="BAcs">
+                            <label for="BAcs">Customer service</label>
+                        </span>
+                        <span class="item">
+                            <input type="radio" name="BestAspect" value="i" id="BAi">
+                            <label for="BAi">Installation or first use experience</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <p>What aspect of the product or service were you most satisfied by?</p>
+                    <div class="flex">
+                        <span class="item">
+                            <input type="radio" name="WorstAspect" value="q" id="WAq">
+                            <label for="WAq">Quality</label>
+                        </span>
+                        <span class="item">
+                            <input type="radio" name="WorstAspect" value="p" id="WAp">
+                            <label for="WAp">Price</label>
+                        </span>
+                        <br>
+                        <span class="item">
+                            <input type="radio" name="WorstAspect" value="cs" id="WAcs">
+                            <label for="WAcs">Customer service</label>
+                        </span>
+                        <span class="item">
+                            <input type="radio" name="WorstAspect" value="i" id="WAi">
+                            <label for="WAi">Installation or first use experience</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <p>Additional comments:</p>
+                    <textarea placeholder="Type here..." class="textarea"></textarea>
+                </div>
+                <div class="form-container centered">
+                  <input type="submit" class="button" value="Submit">  
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
