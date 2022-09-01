@@ -9,15 +9,15 @@ html, body {
 	color: #000;
 }
 body{
-	display: flex;
 	justify-content: center;
 	padding:35px;
 	font-family: sans-serif;
 }
 .survey{
 	background-color:#e5e5e5 ;
-	width: 35%;
-	min-width: 550px;
+	width: 45%;
+	flex-direction: column;
+	min-width: 200px
 }
 form{
     padding:10px 30px;
@@ -46,6 +46,8 @@ label{
 	font-size: 12px;
 	text-align: justify;
 	font-weight: bold;
+	display: block;
+	margin-left: 15px;
 }
 sub{
 	color:#959caa;
@@ -55,6 +57,7 @@ input[type="radio"]{
 	width:15px;
 	height:15px;
 	vertical-align: bottom;
+	float: left;
 }
 span{
 	margin-top: 3px;
@@ -65,6 +68,7 @@ span{
 }
 .item{
 	width:49%;
+	min-width: 100px;
 }
 .input{
 	width:95%;
